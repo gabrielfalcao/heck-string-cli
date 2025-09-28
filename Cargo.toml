@@ -1,6 +1,6 @@
 [package]
 name = "heck-string-cli"
-version = "0.0.1"
+version = "0.0.2"
 description = "command-line tool to convert strings via \"heck\" crate"
 readme = "README.md"
 homepage = "https://crates.io/crates/heck-string-cli"

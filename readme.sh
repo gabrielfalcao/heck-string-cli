@@ -54,7 +54,7 @@ make_variants() {
             fi
         fi
         echo "\$ heck-string --to=${to} \"$(heck-string --to=${case_type} "example to ${case_type} case")\""
-        heck-string --to=${to} "$(heck-string --to=${case_type} "example to ${to} case")"
+        heck-string --to=${to} "$(heck-string --to=${case_type} "example to ${case_type} case")"
         echo
     done
 }
