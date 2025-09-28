@@ -22,23 +22,23 @@ cargo install heck-string-cli
 Convert string to kebab case
 
 ```shell
-$ heck-string --to=kebab "exampleToCamelCase"
-example-to-camel-case
+$ heck-string --to=kebab "exampleFromCamelCase"
+example-from-camel-case
 
-$ heck-string --to=kebab "ExampleToPascalCase"
-example-to-pascal-case
+$ heck-string --to=kebab "ExampleFromPascalCase"
+example-from-pascal-case
 
-$ heck-string --to=kebab "EXAMPLE-TO-SHOUTY-KEBAB-CASE"
-example-to-shouty-kebab-case
+$ heck-string --to=kebab "EXAMPLE-FROM-SHOUTY-KEBAB-CASE"
+example-from-shouty-kebab-case
 
-$ heck-string --to=kebab "EXAMPLE_TO_SHOUTY_SNAKE_CASE"
-example-to-shouty-snake-case
+$ heck-string --to=kebab "EXAMPLE_FROM_SHOUTY_SNAKE_CASE"
+example-from-shouty-snake-case
 
-$ heck-string --to=kebab "example_to_snake_case"
-example-to-snake-case
+$ heck-string --to=kebab "example_from_snake_case"
+example-from-snake-case
 
-$ heck-string --to=kebab "Example-To-Train-Case"
-example-to-train-case
+$ heck-string --to=kebab "Example-From-Train-Case"
+example-from-train-case
 ```
 
 ### `heck-string --to=camel`
@@ -46,23 +46,23 @@ example-to-train-case
 Convert string to camel case
 
 ```shell
-$ heck-string --to=camel "example-to-kebab-case"
-exampleToKebabCase
+$ heck-string --to=camel "example-from-kebab-case"
+exampleFromKebabCase
 
-$ heck-string --to=camel "ExampleToPascalCase"
-exampleToPascalCase
+$ heck-string --to=camel "ExampleFromPascalCase"
+exampleFromPascalCase
 
-$ heck-string --to=camel "EXAMPLE-TO-SHOUTY-KEBAB-CASE"
-exampleToShoutyKebabCase
+$ heck-string --to=camel "EXAMPLE-FROM-SHOUTY-KEBAB-CASE"
+exampleFromShoutyKebabCase
 
-$ heck-string --to=camel "EXAMPLE_TO_SHOUTY_SNAKE_CASE"
-exampleToShoutySnakeCase
+$ heck-string --to=camel "EXAMPLE_FROM_SHOUTY_SNAKE_CASE"
+exampleFromShoutySnakeCase
 
-$ heck-string --to=camel "example_to_snake_case"
-exampleToSnakeCase
+$ heck-string --to=camel "example_from_snake_case"
+exampleFromSnakeCase
 
-$ heck-string --to=camel "Example-To-Train-Case"
-exampleToTrainCase
+$ heck-string --to=camel "Example-From-Train-Case"
+exampleFromTrainCase
 ```
 
 ### `heck-string --to=pascal`
@@ -70,23 +70,23 @@ exampleToTrainCase
 Convert string to pascal case
 
 ```shell
-$ heck-string --to=pascal "example-to-kebab-case"
-ExampleToKebabCase
+$ heck-string --to=pascal "example-from-kebab-case"
+ExampleFromKebabCase
 
-$ heck-string --to=pascal "exampleToCamelCase"
-ExampleToCamelCase
+$ heck-string --to=pascal "exampleFromCamelCase"
+ExampleFromCamelCase
 
-$ heck-string --to=pascal "EXAMPLE-TO-SHOUTY-KEBAB-CASE"
-ExampleToShoutyKebabCase
+$ heck-string --to=pascal "EXAMPLE-FROM-SHOUTY-KEBAB-CASE"
+ExampleFromShoutyKebabCase
 
-$ heck-string --to=pascal "EXAMPLE_TO_SHOUTY_SNAKE_CASE"
-ExampleToShoutySnakeCase
+$ heck-string --to=pascal "EXAMPLE_FROM_SHOUTY_SNAKE_CASE"
+ExampleFromShoutySnakeCase
 
-$ heck-string --to=pascal "example_to_snake_case"
-ExampleToSnakeCase
+$ heck-string --to=pascal "example_from_snake_case"
+ExampleFromSnakeCase
 
-$ heck-string --to=pascal "Example-To-Train-Case"
-ExampleToTrainCase
+$ heck-string --to=pascal "Example-From-Train-Case"
+ExampleFromTrainCase
 ```
 
 ### `heck-string --to=shouty-kebab`
@@ -94,23 +94,23 @@ ExampleToTrainCase
 Convert string to shouty-kebab case
 
 ```shell
-$ heck-string --to=shouty-kebab "example-to-kebab-case"
-EXAMPLE-TO-KEBAB-CASE
+$ heck-string --to=shouty-kebab "example-from-kebab-case"
+EXAMPLE-FROM-KEBAB-CASE
 
-$ heck-string --to=shouty-kebab "exampleToCamelCase"
-EXAMPLE-TO-CAMEL-CASE
+$ heck-string --to=shouty-kebab "exampleFromCamelCase"
+EXAMPLE-FROM-CAMEL-CASE
 
-$ heck-string --to=shouty-kebab "ExampleToPascalCase"
-EXAMPLE-TO-PASCAL-CASE
+$ heck-string --to=shouty-kebab "ExampleFromPascalCase"
+EXAMPLE-FROM-PASCAL-CASE
 
-$ heck-string --to=shouty-kebab "EXAMPLE_TO_SHOUTY_SNAKE_CASE"
-EXAMPLE-TO-SHOUTY-SNAKE-CASE
+$ heck-string --to=shouty-kebab "EXAMPLE_FROM_SHOUTY_SNAKE_CASE"
+EXAMPLE-FROM-SHOUTY-SNAKE-CASE
 
-$ heck-string --to=shouty-kebab "example_to_snake_case"
-EXAMPLE-TO-SNAKE-CASE
+$ heck-string --to=shouty-kebab "example_from_snake_case"
+EXAMPLE-FROM-SNAKE-CASE
 
-$ heck-string --to=shouty-kebab "Example-To-Train-Case"
-EXAMPLE-TO-TRAIN-CASE
+$ heck-string --to=shouty-kebab "Example-From-Train-Case"
+EXAMPLE-FROM-TRAIN-CASE
 ```
 
 ### `heck-string --to=shouty-snake`
@@ -118,23 +118,23 @@ EXAMPLE-TO-TRAIN-CASE
 Convert string to shouty-snake case
 
 ```shell
-$ heck-string --to=shouty-snake "example-to-kebab-case"
-EXAMPLE_TO_KEBAB_CASE
+$ heck-string --to=shouty-snake "example-from-kebab-case"
+EXAMPLE_FROM_KEBAB_CASE
 
-$ heck-string --to=shouty-snake "exampleToCamelCase"
-EXAMPLE_TO_CAMEL_CASE
+$ heck-string --to=shouty-snake "exampleFromCamelCase"
+EXAMPLE_FROM_CAMEL_CASE
 
-$ heck-string --to=shouty-snake "ExampleToPascalCase"
-EXAMPLE_TO_PASCAL_CASE
+$ heck-string --to=shouty-snake "ExampleFromPascalCase"
+EXAMPLE_FROM_PASCAL_CASE
 
-$ heck-string --to=shouty-snake "EXAMPLE-TO-SHOUTY-KEBAB-CASE"
-EXAMPLE_TO_SHOUTY_KEBAB_CASE
+$ heck-string --to=shouty-snake "EXAMPLE-FROM-SHOUTY-KEBAB-CASE"
+EXAMPLE_FROM_SHOUTY_KEBAB_CASE
 
-$ heck-string --to=shouty-snake "example_to_snake_case"
-EXAMPLE_TO_SNAKE_CASE
+$ heck-string --to=shouty-snake "example_from_snake_case"
+EXAMPLE_FROM_SNAKE_CASE
 
-$ heck-string --to=shouty-snake "Example-To-Train-Case"
-EXAMPLE_TO_TRAIN_CASE
+$ heck-string --to=shouty-snake "Example-From-Train-Case"
+EXAMPLE_FROM_TRAIN_CASE
 ```
 
 ### `heck-string --to=snake`
@@ -142,23 +142,23 @@ EXAMPLE_TO_TRAIN_CASE
 Convert string to snake case
 
 ```shell
-$ heck-string --to=snake "example-to-kebab-case"
-example_to_kebab_case
+$ heck-string --to=snake "example-from-kebab-case"
+example_from_kebab_case
 
-$ heck-string --to=snake "exampleToCamelCase"
-example_to_camel_case
+$ heck-string --to=snake "exampleFromCamelCase"
+example_from_camel_case
 
-$ heck-string --to=snake "ExampleToPascalCase"
-example_to_pascal_case
+$ heck-string --to=snake "ExampleFromPascalCase"
+example_from_pascal_case
 
-$ heck-string --to=snake "EXAMPLE-TO-SHOUTY-KEBAB-CASE"
-example_to_shouty_kebab_case
+$ heck-string --to=snake "EXAMPLE-FROM-SHOUTY-KEBAB-CASE"
+example_from_shouty_kebab_case
 
-$ heck-string --to=snake "EXAMPLE_TO_SHOUTY_SNAKE_CASE"
-example_to_shouty_snake_case
+$ heck-string --to=snake "EXAMPLE_FROM_SHOUTY_SNAKE_CASE"
+example_from_shouty_snake_case
 
-$ heck-string --to=snake "Example-To-Train-Case"
-example_to_train_case
+$ heck-string --to=snake "Example-From-Train-Case"
+example_from_train_case
 ```
 
 ### `heck-string --to=train`
@@ -166,22 +166,22 @@ example_to_train_case
 Convert string to train case
 
 ```shell
-$ heck-string --to=train "example-to-kebab-case"
-Example-To-Kebab-Case
+$ heck-string --to=train "example-from-kebab-case"
+Example-From-Kebab-Case
 
-$ heck-string --to=train "exampleToCamelCase"
-Example-To-Camel-Case
+$ heck-string --to=train "exampleFromCamelCase"
+Example-From-Camel-Case
 
-$ heck-string --to=train "ExampleToPascalCase"
-Example-To-Pascal-Case
+$ heck-string --to=train "ExampleFromPascalCase"
+Example-From-Pascal-Case
 
-$ heck-string --to=train "EXAMPLE-TO-SHOUTY-KEBAB-CASE"
-Example-To-Shouty-Kebab-Case
+$ heck-string --to=train "EXAMPLE-FROM-SHOUTY-KEBAB-CASE"
+Example-From-Shouty-Kebab-Case
 
-$ heck-string --to=train "EXAMPLE_TO_SHOUTY_SNAKE_CASE"
-Example-To-Shouty-Snake-Case
+$ heck-string --to=train "EXAMPLE_FROM_SHOUTY_SNAKE_CASE"
+Example-From-Shouty-Snake-Case
 
-$ heck-string --to=train "example_to_snake_case"
-Example-To-Snake-Case
+$ heck-string --to=train "example_from_snake_case"
+Example-From-Snake-Case
 ```
 

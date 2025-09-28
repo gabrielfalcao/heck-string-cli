@@ -53,8 +53,8 @@ make_variants() {
                 blue=$(( ($base_blue + ($delta * 25)) % 255 ))
             fi
         fi
-        echo "\$ heck-string --to=${to} \"$(heck-string --to=${case_type} "example to ${case_type} case")\""
-        heck-string --to=${to} "$(heck-string --to=${case_type} "example to ${case_type} case")"
+        echo "\$ heck-string --to=${to} \"$(heck-string --to=${case_type} "example from ${case_type} case")\""
+        heck-string --to=${to} "$(heck-string --to=${case_type} "example from ${case_type} case")"
         echo
     done
 }
