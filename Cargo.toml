@@ -1,0 +1,42 @@
+[package]
+name = "heck-string-cli"
+version = "0.0.1"
+description = "command-line tool to convert strings via \"heck\" crate"
+readme = "README.md"
+homepage = "https://crates.io/crates/heck-string-cli"
+documentation = "https://docs.rs/heck-string-cli"
+license = "MIT OR Apache-2.0"
+edition = "2024"
+autoexamples = false
+autobenches = false
+default-run = "heck-string"
+categories = ["command-line-utilities", "development-tools", "parsing"]
+keywords = ["string", "case-conversion", "string-conversion", "case-transform", "string-transform"]
+
+[package.metadata]
+targets = [
+    # "aarch64-apple-darwin",
+    # "x86_64-unknown-linux-gnu",
+    # "aarch64-unknown-linux-gnu",
+]
+
+
+[lib]
+name = "heck_string_cli"
+path = "src/lib.rs"
+
+doctest = false
+bench = false
+
+
+[[bin]]
+name = "heck-string"
+path = "src/main.rs"
+doctest = false
+bench = false
+doc = false
+test = false
+
+[dependencies]
+clap = { version = "4.5.48", features = ["derive", "env", "string", "wrap_help"] }
+heck = "0.5.0"
