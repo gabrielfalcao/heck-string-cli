@@ -4,7 +4,7 @@ use clap::builder::PossibleValue;
 use clap::ValueEnum;
 use heck::{
     ToKebabCase, ToLowerCamelCase, ToPascalCase, ToShoutyKebabCase,
-    ToShoutySnakeCase, ToSnakeCase, ToTrainCase,
+    ToShoutySnakeCase, ToSnakeCase, ToTrainCase, ToTitleCase
 };
 
 /// [clap::ValueEnum] to convert input string to a target case
@@ -17,6 +17,7 @@ pub enum ToCase {
     ShoutySnakeCase,
     SnakeCase,
     TrainCase,
+    TitleCase,
 }
 impl Display for ToCase {
     fn fmt(&self, f: &mut Formatter) -> std::fmt::Result {
@@ -34,6 +35,7 @@ impl ToCase {
             ToCase::ShoutySnakeCase => "ShoutySnake",
             ToCase::SnakeCase => "Snake",
             ToCase::TrainCase => "Train",
+            ToCase::TitleCase => "Title",
         }
     }
 
@@ -47,6 +49,7 @@ impl ToCase {
             ToCase::ShoutySnakeCase => string.to_shouty_snake_case(),
             ToCase::SnakeCase => string.to_snake_case(),
             ToCase::TrainCase => string.to_train_case(),
+            ToCase::TitleCase => string.to_title_case(),
         }
     }
 
@@ -86,6 +89,7 @@ impl ToCase {
                     variant.to_lower_camel_case(),
                     variant.to_pascal_case(),
                     variant.to_train_case(),
+                    variant.to_title_case(),
                     variant.to_snake_case(),
                     variant.to_shouty_snake_case(),
                     variant.to_shouty_kebab_case(),
@@ -110,6 +114,7 @@ impl ToCase {
             ToCase::ShoutySnakeCase,
             ToCase::SnakeCase,
             ToCase::TrainCase,
+            ToCase::TitleCase,
         ]
     }
 }
